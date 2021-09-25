@@ -15,11 +15,11 @@ function App() {
       <ScrollToTop/>
       <Navbar/>
       <Switch>
-      <Route path='/' exact component={Home}/>
-      <Route path='/about-me' exact component={AboutMe}/>
-      <Route path='/portfolio' exact component={Portfolio}/>
-      <Route path='/experience' exact component={Experience}/>
-      <Route path='/contact-me' exact component={ContactMe}/>
+      <Route path='/portfolio-website-v2/' exact component={Home}/>
+      <Route path='portfolio-website-v2/about-me' exact component={AboutMe}/>
+      <Route path='portfolio-website-v2/portfolio' exact component={Portfolio}/>
+      <Route path='portfolio-website-v2/experience' exact component={Experience}/>
+      <Route path='portfolio-website-v2/contact-me' exact component={ContactMe}/>
       </Switch>
       <Footer/>
     </Router>
