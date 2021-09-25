@@ -1,0 +1,157 @@
+.experienceHero__section {
+  padding: 25px 0 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fafafa;
+}
+
+.experienceHero__container-card {
+  background: linear-gradient(45deg, #25ce4a 0%, #25ce4a 100%);
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
+  width: 280px;
+  height: 550px;
+  text-decoration: 4px;
+  border-radius: 4px;
+}
+
+.experienceHero__container-card:nth-child(2) {
+  transform: scale(1.05);
+  background: #1c3723;
+  margin: 0 24px;
+}
+
+.experienceHero__container-card:hover {
+  transform: scale(1.06);
+  transition: all 0.3s ease-out;
+  color: #1c2237;
+}
+
+.experienceHero__container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.experienceHero__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0 auto;
+}
+
+.experienceHero__heading {
+  color: #1c2237;
+  margin-bottom: 24px;
+}
+
+.experienceHero__container-cardInfo {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  padding: 24px;
+  align-items: center;
+  color: #fafafa;
+}
+
+.experienceHero__container-cardInfo h3 {
+  margin-bottom: 5px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.experienceHero__container-cardInfo h4 {
+  font-size: 30px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.experienceHero__container-cardInfo p {
+  display: flex;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.experienceHero__container-cardInfo p:nth-child(2) {
+  display: flex;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+experienceHero__container-features {
+  margin: 16px 0px 32px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experienceHero__container-features li {
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: auto;
+  height: auto;
+  margin: 24px 0;
+}
+
+.experience__hero-img {
+  max-width: 130px;
+  width: 70%;
+  max-height: 130px;
+  height: 70%;
+  object-fit: fill;
+  /* The new margin on line 78 does the same thing!
+      margin-top: 0;
+      margin-right: 0;
+      margin-left: 10px; */
+  padding-right: 0;
+  margin: 0 0 0 10px;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/* Media Queries (Handles the components when the screen is shrinked) */
+@media screen and (max-width: 960px) {
+  .experienceHero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .experienceHero__container-card {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experienceHero__wrapper {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experienceHero__container-card:nth-child(2) {
+    transform: scale(1);
+    background: #242424;
+    margin: 24px;
+  }
+  .experienceHero__container-card:hover {
+    transform: none;
+  }
+  /* .experienceHero__heading {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+}

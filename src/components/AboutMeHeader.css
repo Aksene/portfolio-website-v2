@@ -1,0 +1,245 @@
+.aboutMe__header-section {
+  background: #1c3723;
+  box-sizing: border-box;
+}
+
+.grid-container {
+  display: grid; /* Need to define grid template area when defined*/
+  grid-template-areas:
+    "aboutMe__header-text-wrapper"
+    "aboutMe__header-img-wrapper";
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 1fr;
+  height: 100%;
+}
+
+.aboutMe__header-text-wrapper {
+  grid-area: aboutMe__header-text-wrapper;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.aboutMe__header-img-wrapper {
+  grid-area: aboutMe__header-img-wrapper;
+  max-width: max-content;
+  width: 100%;
+  padding: 3rem;
+}
+
+.aboutMe__top-line {
+  color: #f00946;
+  padding-top: 1rem;
+  font-size: 1.6rem;
+}
+
+.aboutMe__heading {
+  font-size: 1.8rem;
+}
+
+.aboutMe__header-img {
+  border-radius: 0.5;
+  max-width: 22rem;
+  width: 100%;
+}
+
+.abdoutMe__row {
+  display: flex; /* Display items next to each other */
+  flex-direction: column;
+  flex-wrap: wrap; /* If no space available it will wrap to next line*/
+  justify-content: center; /* Maximum distance between items in a row*/
+  align-items: center;
+  width: 100%;
+}
+
+/*
+.aboutMe__header-section {
+  padding-top: 25px;
+  background: #1c3723;
+}
+
+.container {
+  padding-bottom: 20px;
+}
+
+.aboutMe__header-row {
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  margin-right: -15px;
+  margin-bottom: -15px;
+  margin-left: -15px;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.col {
+  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 1;
+  max-width: 100%;
+  flex-basis: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+}
+
+.aboutMe__header-text-wrapper {
+  max-width: 540px;
+  padding-top: 0;
+  padding-bottom: 60px;
+}
+
+.aboutMe__top-line {
+  color: #f00946;
+  font-size: 30px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+}
+
+.aboutMe__heading {
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #f7f8fa;
+  width: 900px;
+  display: block;
+  margin-left: -160px;
+}
+
+.dark {
+  color: #1c3723;
+}
+
+.darkBg {
+  background-color: #1c3723;
+}
+
+.aboutMe__header-subtitle-dark {
+  max-width: 440px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1c2237;
+}
+
+.aboutMe__header-img-wrapper {
+  display: flex;
+  flex: 1;
+  max-width: 900px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  padding-left: -0px;
+}
+
+.aboutMe__header-img {
+  max-width: 100%;
+  */
+/* The new margin on line 78 does the same thing!
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 10px; */
+/*
+  padding-right: 0;
+  margin: 0 0 0 10px;
+  margin-top: -60px;
+}
+
+.aboutMe__header-img:hover {
+  transform: scale(1.06);
+  transition: all 0.3s ease-out;
+  color: #1c2237;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  width: 1000px;
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+  width: max-content;
+}
+
+@media screen and (max-width: 560px) {
+  .aboutMe__header-img {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: "hidden";
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .aboutMe__header-section {
+    padding-top: 25px;
+    background: #1c3723;
+    height: 500px;
+  }
+
+  .aboutMe__header-img {
+    max-width: 95%;
+    */
+/* The new margin on line 78 does the same thing!
+      margin-top: 0;
+      margin-right: 0;
+      margin-left: 10px; */
+/*
+    padding-right: 0;
+    margin: 0 0 0 10px;
+    margin-top: -95px;
+    height: 400px;
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .aboutMe__heading {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    text-align: center;
+  }
+
+  .aboutMe__header-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    overflow: "hidden";
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .aboutMe__header-text-wrapper {
+    padding-bottom: 65px;
+  }
+  */
+/* Collapses the Image and text giving it a slimmer/mobile look */
+/*
+  .col {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+*/

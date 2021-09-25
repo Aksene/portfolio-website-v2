@@ -1,0 +1,151 @@
+/* .experience__page-section {
+  background: #fafafa;
+  box-sizing: border-box;
+}
+
+.experience__page-row {
+  align-items: center;
+}
+
+.experience__whole-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: max-content;
+  padding-left: 0.5rem;
+}
+
+.row {
+  display: flex;
+  margin-bottom: -15px;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.exp__col {
+  margin-bottom: 15px;
+  flex: 1;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+.experience__page-text-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: auto;
+  width: auto;
+  padding-top: 0;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.top-line {
+  color: #f00946;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #f7f8fa;
+  text-align: center;
+}
+
+.dark {
+  color: #1c3723;
+}
+
+.darkBg {
+  background-color: #1c3723;
+}
+
+.experience__page-block {
+  max-width: max-content;
+  width: 90%;
+  display: block;
+  display: flex;
+  flex-direction: row;
+}
+
+.experience__page-header1,
+.experience__page-header2 {
+  font-size: 30px;
+  line-height: 1.1;
+  font-weight: 555;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.experience__page-divider {
+  padding-right: 50px;
+}
+
+.experience__page-subtitle1,
+.experience__page-subtitle2 {
+  max-width: max-content;
+  width: 100%;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1c2237;
+  display: block;
+  display: inline;
+  text-align: start;
+  white-space: pre-wrap;
+}
+
+.experience__page-img-wrapper {
+  max-width: auto;
+  width: 80%;
+  height: auto;
+}
+
+.experience__page-img {
+  max-width: 100%;
+  width: 80%;
+  height: auto;
+  object-fit: contain; */
+/* The new margin on line 78 does the same thing!
+      margin-top: 0;
+      margin-right: 0;
+      margin-left: 10px; */
+/* padding-right: 0;
+  margin: 0 0 0 10px;
+} */
+
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .experience__page-text-wrapper {
+    padding-bottom: 65px;
+  }
+
+  /* Collapses the Image and text giving it a slimmer/mobile look */
+  .col {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}

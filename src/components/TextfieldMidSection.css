@@ -1,0 +1,56 @@
+.textField__section {
+  background: #1c3723;
+  box-sizing: border-box;
+}
+
+.textfield__grid-container {
+  display: grid; /* Need to define grid template area when defined*/
+  grid-template-areas:
+    "textField__section-text"
+    "textField__section-textMobile"
+    "textField__section-textWeb";
+  grid-template-columns: 1fr; /* No side bare or anything */
+  grid-template-rows: 1fr 1rem 1rem;
+  height: 100%;
+}
+
+.textField__section-text {
+  grid-area: textField__section-text;
+  padding: 1rem;
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(122, 146, 122);
+}
+
+p.textField__section-text:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-out;
+  color: rgb(207, 226, 207);
+}
+
+.textField__section-textMobile {
+  grid-area: textField__section-textMobile;
+  max-width: max-content;
+  width: 80%;
+  padding: 1rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(207, 226, 207);
+}
+.textField__section-textWeb {
+  grid-area: textField__section-textWeb;
+  max-width: max-content;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  color: rgb(207, 226, 207);
+}
+
+.textfield__row {
+  width: 100%;
+}
