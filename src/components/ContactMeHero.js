@@ -5,12 +5,12 @@ import { Button } from './Button';
 
 function ContactMeHero() {
     return (
-        <div className='contactMe__hero-container'>       
+        <div >       
             <video className="contactBackground" src="videos/video-4.mp4" autoPlay playsInline loop muted />
             <text className="contactMe__Title"> Let's Talk!</text>
             <div class="contactMe_row">
                 <div class="column1">
-                    <form className="container" action="https://submit-form.com/WxAHMHxW">
+                    <form className="container1" action="https://submit-form.com/WxAHMHxW">
                         <label for="name">Name: </label>
                         <input type="text" id="name" name="name" placeholder="Name" required="" />
                         <label for="number">Number: </label>
