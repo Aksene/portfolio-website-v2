@@ -1,12 +1,12 @@
 import React from 'react'
 import './ContactHeroInfo.css'
 import { Button } from './Button';
+import VideoBackground from './videos/video-4.mp4'
 
 
 function ContactMeHero() {
     return (
         <div>       
-            <video className="video" src="videos/video-4.mp4" autoPlay loop muted />
             <div className="containerAboutMe">
                 <label for="myname">Name: </label>
                 <text for="myname">Abdou Khadre Sene</text>
