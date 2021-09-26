@@ -6,18 +6,18 @@ import { Button } from './Button';
 function ContactMeHero() {
     return (
         <div >       
-            <video className="contactBackground" src="videos/video-4.mp4" playsinlin loop muted />
+            <video className="contactBackground" src="videos/video-4.mp4" autoPlay playsInline loop muted />
             <text className="contactMe__Title"> Let's Talk!</text>
             <div class="contactMe_row">
                 <div class="column1">
                     <form className="container1" action="https://submit-form.com/WxAHMHxW">
                         <label for="name">Name: </label>
-                        <input type="text" id="name" name="name" placeholder="Name" required="" />
+                        <input type="text" id="name" name="name" placeholder="Name" required="required" />
                         <label for="number">Number: </label>
-                        <input type="text" id="number" name="number" placeholder="Phone Number" required="" />
+                        <input type="text" id="number" name="number" placeholder="Phone Number" required="required" />
                         <label for="email">E-mail: </label>                
                         <input type="email" id="email" name="email" placeholder="Email" required="required" />
-                        <label for="message"> Message</label>
+                        <label for="message">Message: </label>
                         <textarea
                         id="message"
                         name="message"
