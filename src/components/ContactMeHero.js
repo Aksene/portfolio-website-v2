@@ -16,13 +16,13 @@ function ContactMeHero() {
                         <label for="number">Number: </label>
                         <input type="text" id="number" name="number" placeholder="Phone Number" required="" />
                         <label for="email">E-mail: </label>                
-                        <input type="email" id="email" name="email" placeholder="Email" required="" />
-                        <label for="message">Message</label>
+                        <input type="email" id="email" name="email" placeholder="Email" required="required" />
+                        <label for="message"> Message</label>
                         <textarea
                         id="message"
                         name="message"
                         placeholder="Message"
-                        required=""
+                        required="required"
                         ></textarea>
                         <Button type="submit" buttonSize='btn--wide' buttonColor='green' className="contactMe__submit-button">
 
