@@ -6,7 +6,7 @@ import { Button } from './Button';
 function ContactMeHero() {
     return (
         <div>       
-            <video className="contactBackground" src="videos/video-4.mp4" autoPlay playsinline loop muted />
+            <video className="contactBackground" src="videos/video-4.mp4" autoPlay playsInline loop muted />
             <text className="contactMe__Title"> Let's Talk!</text>
             <div class="contactMe_row">
                 <div class="column1">
