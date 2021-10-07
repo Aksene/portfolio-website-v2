@@ -19,7 +19,7 @@ function AboutMeToolsTiles() {
     return (
         <div className="tools-section">
             <h1 className="tools-section-header">
-                Tools/Environments
+                Tools / Environments
             </h1>
             <div className="tools__tile__grid-container">
                 <div className="tools-col">
