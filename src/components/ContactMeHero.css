@@ -144,3 +144,9 @@ textarea {
     height: 110px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .contactMe__Title {
+    font-size: 4rem;
+  }
+}

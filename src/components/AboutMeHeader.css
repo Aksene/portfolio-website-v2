@@ -15,7 +15,7 @@
 
 .aboutMe__header-text-wrapper {
   grid-area: aboutMe__header-text-wrapper;
-  padding: 1rem;
+  padding: 0.8rem;
   width: 100%;
   text-align: center;
 }
@@ -38,7 +38,6 @@
 }
 
 .aboutMe__header-img {
-  border-radius: 0.5;
   max-width: 22rem;
   width: 100%;
 }
@@ -50,6 +49,8 @@
   justify-content: center; /* Maximum distance between items in a row*/
   align-items: center;
   width: 100%;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 /*

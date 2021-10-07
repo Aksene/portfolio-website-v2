@@ -6,11 +6,6 @@ function TextfieldMidSection() {
         <div className= 'textField__section'>
             <div className="textfield__grid-container">
                 <div className="textfield__row">
-
-                    <p>
-
-                    </p>
-
                     <p className='textField__section-text'> 
                         I currently work a iOS intern for start-up called DiStaff. There I’m tasked with developing telemetry and alerting for opportunities to improve build infrastructure and tooling, and execute on them. 
                         I also have to try to create the best possible developer experience for mobile engineers by ensuring our tools are effective, efficient and easy to use. 
@@ -27,22 +22,6 @@ function TextfieldMidSection() {
                         I’ve also spent four years as a Sales Associate at for Marshalls. In this role, I was valued as the employee overseeing the cleaning & organization of the Shoe Department, assisting in keeping track of stock and also in charge training future employees 
                     </p> 
                 </div> 
-                <div className="textfield__row">
-                    <p className='textField__section-textWeb'>
-                        Web Application Development Skills:
-                        <p>
-                        React.js, JavaScript, CSS, Styled Components, PHP and Web creation platforms (Shopify, SquareSpace, Webnode etc...)
-                        </p>
-                    </p>
-
-                    <p className='textField__section-textMobile'>
-                        Mobile Application Development Skills:
-                        <p>
-                        Java, Swift, Xcode, CocoaPods, API, Django REST API, FirebaseSDK, Kotlin(small exp.), VSCode, IntelliJ, 
-                        Android Studios, Python, MySQL, SQL Queries, JSON, Database design, Ubuntu, AWS, EC2, RDS
-                        </p>
-                    </p>
-                </div>
             </div>
         </div>
     )

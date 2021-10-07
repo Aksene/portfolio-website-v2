@@ -171,3 +171,13 @@
     height: 120px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .navbar-logo {
+    margin-left: -2.3rem;
+  }
+
+  .menu-icon {
+    margin-right: -0.5rem;
+  }
+}

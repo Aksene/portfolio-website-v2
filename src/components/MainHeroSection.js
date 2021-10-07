@@ -9,7 +9,7 @@ import '../App.css';
 function MainHeroSection() {
     return (
         <div className='hero-container'>
-            <video src={VideoBackground} autoPlay="true" preload="true" playsInline loop muted />
+            <video src={VideoBackground} autoPlay={true} preload={true} playsInline loop muted />
             <h1>My Name is Abdou K. Sene</h1>
             <p>I'm a Web & Mobile developer </p>
             <div className="hero-btns">

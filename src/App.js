@@ -7,6 +7,7 @@ import AboutMe from './components/pages/AboutMe/AboutMe';
 import Portfolio from './components/pages/Portfolio/Portfolio'
 import Experience from './components/pages/Experience/Experience'
 import ContactMe from './components/pages/ContactMe/ContactMe';
+import TESTING from './components/pages/TESTING_GROUND/TESTING';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Route path='/portfolio' exact component={Portfolio}/>
       <Route path='/experience' exact component={Experience}/>
       <Route path='/contact-me' exact component={ContactMe}/>
+      <Route path='/testing-ground' exact component={TESTING}/>
       </Switch>
       <Footer/>
     </Router>
