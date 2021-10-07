@@ -110,6 +110,7 @@ experiencePageHero__container-features {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-decoration: none;
   }
 
   .experiencePageHero__wrapper {
