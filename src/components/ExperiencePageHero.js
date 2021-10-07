@@ -28,10 +28,11 @@ function ExperiencePageHero() {
                                         <li>Managing and making appropriate changes/fixes to the Backend</li>
                                         <li>Consulting with the CEO and Dev team about ways to improve the infrastructure</li>
                                     </ul>
-                                    <Button buttonSize='btn--wide' buttonColor='green'>
-                                        Check Them Out
-                                    </Button>
-
+                                    <div className="experiencePageHero__container-buttons">
+                                        <Button buttonSize='btn--wide' buttonColor='green'>
+                                            Check Them Out
+                                        </Button>
+                                    </div>
                                 </div>
                             </Link>
                             <Link to="//cdxanalytics.com/" className="experiencePageHero__container-card" target='_blank'>
@@ -47,9 +48,12 @@ function ExperiencePageHero() {
                                         <li>Perfomed routine IT duties around the office</li>
                                         <li>Managed and updated the database while lightly working on the employee website</li>
                                     </ul>
-                                    <Button buttonSize='btn--wide' buttonColor='primary'>
-                                        Check Them Out
-                                    </Button>
+                                    <div className="experiencePageHero__container-buttons">
+                                        <Button buttonSize='btn--wide' buttonColor='primary'>
+                                            Check Them Out
+                                        </Button>
+                                    </div>
+
                                 </div>
                             </Link>
                             <Link to="//www.linkedin.com/in/abdou-khadre-sene/" target='_blank' className="experiencePageHero__container-card">

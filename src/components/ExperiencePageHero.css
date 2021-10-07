@@ -6,6 +6,10 @@
   background: #fafafa;
 }
 
+.experiencePageHero__container-buttons {
+  width: 119%;
+}
+
 .experiencePageHero__container-card {
   background: linear-gradient(45deg, #1c3723 0%, #1c3723 100%);
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
