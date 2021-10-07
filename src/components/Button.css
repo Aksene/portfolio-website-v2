@@ -11,6 +11,12 @@
   white-space: nowrap;
 }
 
+.button-text {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .btn--primary {
   background-color: var[--primary];
   color: #fff;

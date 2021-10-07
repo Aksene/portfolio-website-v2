@@ -15,9 +15,10 @@ function ExperienceHeroSection() {
                         <div className="experienceHero__container">
                             <Link to="//www.distaff.app/" className="experienceHero__container-card" target='_blank'>
                                 <div className="experienceHero__container-cardInfo">
-                                    <div className="icon">
+                                    <div className="hero-icon">
                                         <img src="images/Distaff.jpeg" alt="Distaff" className='experience__hero-img'></img>
                                     </div>
+                                    <div className="card-header">
                                     <h3>Distaff</h3>
                                     <h4>iOS Developer</h4>
                                     <p>June 2021 - Present</p>
@@ -26,12 +27,12 @@ function ExperienceHeroSection() {
                                         <li>Managing and making appropriate changes/fixes to the Backend</li>
                                         <li>Consulting with the CEO and Dev team about ways to improve the infrastructure</li>
                                     </ul>
-
+                                </div>
                                 </div>
                             </Link>
                             <Link to="//cdxanalytics.com/" className="experienceHero__container-card" target='_blank'>
                                 <div className="experienceHero__container-cardInfo">
-                                    <div className="icon">
+                                    <div className="hero-icon">
                                     <img src="images/CDX.png" alt="CDX" className='experience__hero-img'></img>
                                     </div>
                                     <h3>CDX Analytics Laboratory</h3>
@@ -46,7 +47,7 @@ function ExperienceHeroSection() {
                             </Link>
                             <Link to="/experience" className="experienceHero__container-card">
                                 <div className="experienceHero__container-cardInfo">
-                                    <div className="icon">
+                                    <div className="hero-icon">
                                         <FaAmazon/>
                                     </div>
                                     <h3>Previous Jobs</h3>

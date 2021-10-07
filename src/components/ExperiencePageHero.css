@@ -54,6 +54,7 @@
   padding: 24px;
   align-items: center;
   color: #fafafa;
+  width: 90%;
 }
 
 .experiencePageHero__container-cardInfo h3 {
@@ -79,12 +80,12 @@
   font-weight: bold;
 }
 
-experiencePageHero__container-features {
+.experiencePageHero__container-features {
   margin: 16px 0px 32px;
   list-style: none;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .experiencePageHero__container-features li {
@@ -127,6 +128,28 @@ experiencePageHero__container-features {
   }
   .experiencePageHero__container-card:hover {
     transform: none;
+  }
+
+  .experiencePageHero__container-features {
+    margin: 0px;
+  }
+
+  .experiencePageHero__container-cardInfo {
+    width: 99%;
+  }
+
+  .card__header:nth-child(2) {
+    margin-top: -1rem;
+    /* padding: 0rem; */
+  }
+
+  .card__header {
+    margin-top: -1rem;
+    /* padding: 0rem; */
+  }
+
+  .icon {
+    margin-top: 0rem;
   }
   /* .experiencePageHero__heading {
       flex: 1;

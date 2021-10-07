@@ -48,7 +48,8 @@
 .experienceHero__container-cardInfo {
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 100%;
+  width: 100%;
   padding: 24px;
   align-items: center;
   color: #fafafa;
@@ -77,19 +78,19 @@
   font-weight: bold;
 }
 
-experienceHero__container-features {
+.experienceHero__container-features {
   margin: 16px 0px 32px;
   list-style: none;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .experienceHero__container-features li {
   margin-bottom: 10px;
 }
 
-.icon {
+.hero-icon {
   width: auto;
   height: auto;
   margin: 24px 0;
@@ -149,6 +150,7 @@ img {
   .experienceHero__container-card:hover {
     transform: none;
   }
+
   /* .experienceHero__heading {
     flex: 1;
     display: flex;
