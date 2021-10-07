@@ -18,7 +18,6 @@ function ExperienceHeroSection() {
                                     <div className="hero-icon">
                                         <img src="images/Distaff.jpeg" alt="Distaff" className='experience__hero-img'></img>
                                     </div>
-                                    <div className="card-header">
                                     <h3>Distaff</h3>
                                     <h4>iOS Developer</h4>
                                     <p>June 2021 - Present</p>
@@ -27,7 +26,6 @@ function ExperienceHeroSection() {
                                         <li>Managing and making appropriate changes/fixes to the Backend</li>
                                         <li>Consulting with the CEO and Dev team about ways to improve the infrastructure</li>
                                     </ul>
-                                </div>
                                 </div>
                             </Link>
                             <Link to="//cdxanalytics.com/" className="experienceHero__container-card" target='_blank'>

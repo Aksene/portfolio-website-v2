@@ -18,11 +18,9 @@ function ExperiencePageHero() {
                                     <div className="icon">
                                         <FaDochub/>
                                     </div>
-                                    <div className="card__header">
                                         <h3>Distaff</h3>
                                         <h4>iOS Developer</h4>
                                         <p>June 2021 - Present</p>
-                                    </div>
                                     <ul className="experiencePageHero__container-features">
                                         <li>Software developement and management of the iOS, website and React app</li>
                                         <li>Managing and making appropriate changes/fixes to the Backend</li>
