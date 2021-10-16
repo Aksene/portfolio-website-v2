@@ -27,7 +27,7 @@
   justify-content: space-between;
   height: 80px;
 }
-
+/* Spaces out the container */
 .WholeContainer {
   z-index: 1;
   width: 100%;
@@ -52,6 +52,7 @@
   margin-right: 0.5rem;
 }
 
+/* Displays the links horizontally */
 .nav-menu {
   display: flex;
   align-items: center;
