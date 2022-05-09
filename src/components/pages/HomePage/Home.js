@@ -16,7 +16,9 @@ function Home() {
                     <meta 
                         name="description" 
                         content="Build an empowering community for #EVERYONES beauty journey through video, blogging, and other forms of media. CREATE BEAUTY CONTENT THAT SLAYS!" 
+                        data-react-helmet="true"
                     />
+                    
             </Helmet>
             <MainHeroSection/>
             <AboutMeHeroSection {...homeAboutMe4} />
