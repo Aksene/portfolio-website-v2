@@ -12,13 +12,12 @@ function Home() {
     return (
         <>
             <Helmet>
-                    <title>Abdou's World</title>
-                    <meta 
-                        name="description" 
-                        content="Just testing out the child SEO with Helmet" 
-                        data-react-helmet="true"
-                    />
-                    
+                <title>Abdou's World</title>
+                <meta 
+                    name="description" 
+                    content="Just testing out the child SEO with Helmet" 
+                    data-react-helmet="true"
+                />       
             </Helmet>
             <MainHeroSection/>
             <AboutMeHeroSection {...homeAboutMe4} />
