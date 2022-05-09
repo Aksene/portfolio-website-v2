@@ -9,10 +9,19 @@ import Experience from './components/pages/Experience/Experience'
 import ContactMe from './components/pages/ContactMe/ContactMe';
 import TESTING from './components/pages/TESTING_GROUND/TESTING';
 import ScrollToTop from './components/ScrollToTop';
+import { Helmet } from "react-helmet";
+
 
 function App() {
   return (
     <Router>
+      <Helmet>   
+        <title>SLAYMASTER - Create Beauty Content That Slays, Hair Tutorial</title>
+        <meta 
+            name="description" 
+            content="Build an empowering community for #EVERYONES beauty journey through video, blogging, and other forms of media. CREATE BEAUTY CONTENT THAT SLAYS!" 
+        />
+      </Helmet>
       <ScrollToTop/>
       <Navbar/>
       <Switch>
