@@ -19,7 +19,7 @@ function App() {
           <title>Abdou's World</title>
           <meta 
               name="description" 
-              content="Build an empowering community for #EVERYONES beauty journey through video, blogging, and other forms of media. CREATE BEAUTY CONTENT THAT SLAYS!" 
+              content="Just testing out the parent SEO with Helmet from App.js" 
               data-react-helmet="true"
           />
       </Helmet>

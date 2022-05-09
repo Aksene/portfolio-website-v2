@@ -12,10 +12,10 @@ function Home() {
     return (
         <>
             <Helmet>
-                    <title>SLAYMASTER - Create Beauty Content That Slays, Hair Tutorial</title>
+                    <title>Abdou's World</title>
                     <meta 
                         name="description" 
-                        content="Build an empowering community for #EVERYONES beauty journey through video, blogging, and other forms of media. CREATE BEAUTY CONTENT THAT SLAYS!" 
+                        content="Just testing out the child SEO with Helmet" 
                         data-react-helmet="true"
                     />
                     
