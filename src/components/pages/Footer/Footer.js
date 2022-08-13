@@ -9,7 +9,9 @@ import {
   FaAngellist,
   FaLinkedin
 } from 'react-icons/fa';
-import { SiBrave } from 'react-icons/si';
+// import { SiBrave } from 'react-icons/si';
+import logo from '../../images/[FINAL]ORF-Backwoods_MINI.png'
+
 
 
 function Footer() {
@@ -36,11 +38,12 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              <SiBrave className='navbar-icon' />
-              Abdou's World
+              {/* <SiBrave className='navbar-icon' />
+              Abdou's World */}
+              <img src={logo} className="navbar-logo" alt="Abdous-world" />
             </Link>
           </div>
-          <small className='website-rights'>Abdou's World © 2021</small>
+          <small className='website-rights'>Abdou's World © 2022</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link'

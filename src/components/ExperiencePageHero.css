@@ -17,12 +17,14 @@
   height: 560px;
   text-decoration: 4px;
   border-radius: 4px;
+  text-align: center;
 }
 
 .experiencePageHero__container-card:nth-child(2) {
   transform: scale(1.05);
   background: #25ce4a;
   margin: 0 24px;
+  text-align: center;
 }
 
 .experiencePageHero__container-card:hover {
@@ -59,6 +61,7 @@
   align-items: center;
   color: #fafafa;
   width: 90%;
+  text-align: center;
 }
 
 .experiencePageHero__container-cardInfo h3 {
@@ -99,6 +102,11 @@
 
 .icon {
   margin: 24px 0;
+}
+
+.experience-hero_title {
+  margin-left: 25px;
+  text-align: center;
 }
 
 /* Media Queries (Handles the components when the screen is shrinked) */

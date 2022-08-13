@@ -5,6 +5,7 @@ import { FaAlignRight, FaTimes } from 'react-icons/fa';
 import { Button } from './Button';
 import './Navbar.css';
 import  { IconContext } from 'react-icons/lib'
+import logo from './images/[FINAL]ORF-Backwoods_MINI.png'
 
 function Navbar() {
     //Handles the clicks
@@ -67,8 +68,9 @@ function Navbar() {
                 >
                     <div className="navbar-container WholeContainer">
                         <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-                            <SiBrave className="navbar-icon" />
-                            Abdou's World
+                            {/* <SiBrave className="navbar-icon" />
+                            Abdou's World */}
+                            <img src={logo} className="navbar-logo" alt="Abdous-world" />
                         </Link>
                         <div className="menu-icon" onClick={handleClick}>
                             {/* Checks if the menu icon is clicked then changes it  */}

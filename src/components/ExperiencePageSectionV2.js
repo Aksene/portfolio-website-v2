@@ -4,6 +4,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './ExperiencePageSectionV2.css';
+import './images/slaymaster-icon-logo.png'
 
 function ExperiencePageSection({
     lightBg,

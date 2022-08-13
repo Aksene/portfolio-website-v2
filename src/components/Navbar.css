@@ -45,11 +45,12 @@
   text-decoration: none;
   font-size: 2rem;
   display: flex;
+
   align-items: center;
 }
 
-.navbar-icon {
-  margin-right: 0.5rem;
+.navbar-logo {
+  width: 150px;
 }
 
 /* Displays the links horizontally */
@@ -90,6 +91,10 @@
 }
 
 @media screen and (max-width: 960px) {
+  .navbar-icon {
+    margin-top: -30px;
+    width: 150px;
+  }
   .navbar.active {
     background: #1c3723;
   }

@@ -1,6 +1,8 @@
 import React from 'react'
 import './ContactMeHero.css'
 import { Button } from './Button';
+import logo from './images/[FINAL]ORF-Backwoods_MINI.png'
+
 
 
 function ContactMeHero() {
@@ -37,6 +39,7 @@ function ContactMeHero() {
                         <label for="email">My E-mail: </label>                
                         <text for="email">abdouksene@gmail.com</text>
                         {/* <text for="desc">Please contact me anytime for a conversation about my experience and background</text> */}
+                        <img src={logo} className="contact_me-logo" alt="Abdous-world" />
                     </div>
                 </div>
             </div>
