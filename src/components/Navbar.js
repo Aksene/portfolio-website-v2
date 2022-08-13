@@ -5,7 +5,7 @@ import { FaAlignRight, FaTimes } from 'react-icons/fa';
 import { Button } from './Button';
 import './Navbar.css';
 import  { IconContext } from 'react-icons/lib'
-import logo from './images/[FINAL]ORF+Extra-Backwoods MINI.png'
+import logo from './images/[FINAL]ORF+Extra-Backwoods_MINI.png'
 
 function Navbar() {
     //Handles the clicks
