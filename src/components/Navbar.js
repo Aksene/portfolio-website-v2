@@ -1,11 +1,11 @@
 import React, { useState, useEffect} from 'react';
 import { Link, useHistory } from 'react-router-dom';
-import { SiBrave } from 'react-icons/si';
+// import { SiBrave } from 'react-icons/si';
 import { FaAlignRight, FaTimes } from 'react-icons/fa';
 import { Button } from './Button';
 import './Navbar.css';
 import  { IconContext } from 'react-icons/lib'
-import logo from './images/[FINAL]ORF-Backwoods_MINI.png'
+import logo from './images/[FINAL]ORF+Extra-Backwoods MINI.png'
 
 function Navbar() {
     //Handles the clicks
