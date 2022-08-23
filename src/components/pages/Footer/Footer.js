@@ -37,11 +37,9 @@ function Footer() {
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
-              {/* <SiBrave className='navbar-icon' />
-              Abdou's World */}
+            {/* <Link to='/' className='social-logo'>
               <img src={logo} className="navbar-logo" alt="Abdous-world" />
-            </Link>
+            </Link> */}
           </div>
           <small className='website-rights'>Abdou's World © 2022</small>
           <div className='social-icons'>

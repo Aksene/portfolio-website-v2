@@ -147,12 +147,9 @@
     width: 100%;
   }
 
-  .navbar-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(25%, 50%);
-  }
+  /* .navbar-logo {
+    width: 130px;
+  } */
 
   .menu-icon {
     display: block;
@@ -180,9 +177,8 @@
 
 @media screen and (max-width: 320px) {
   .navbar-logo {
-    margin-left: -2.3rem;
+    width: 100px;
   }
-
   .menu-icon {
     margin-right: -0.5rem;
   }
