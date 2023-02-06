@@ -42,26 +42,25 @@ function ExperiencePageSection({
             </div>
             <div class= {imgStart === 'start' ? 'experience__grid-child-reverse': 'experience__grid-child'}>
                 <div className="experience__page-info-wrapper">
-                            
                             <div className="home__her-img-wrapper">
                                 <Link to={link} target='_blank'>
                                     <img src={img} alt={alt} className='experience__page-img'></img>
                                 </Link>
-                                <div className="portfolio-links">
-                                    <Link to={gitLnk} target='_blank'>
-                                        <Button buttonSize='btn--wide' buttonColor='green'>
-                                            GitHub
-                                        </Button>
-                                    </Link>
-                                        <Link to={link} target='_blank'>
-                                        <Button buttonSize='btn--wide' buttonColor='green'>
-                                            Demo
-                                        </Button>
-                                    </Link>
-                                </div>
                             </div>
-                        </div>
                 </div>
+                <div className="portfolio-links">
+                        <Link to={gitLnk} target='_blank'>
+                            <Button buttonSize='btn--wide' buttonColor='green'>
+                                GitHub
+                            </Button>
+                        </Link>
+                            <Link to={link} target='_blank'>
+                            <Button buttonSize='btn--wide' buttonColor='green'>
+                                Demo
+                            </Button>
+                        </Link>
+                </div>
+            </div>
         </div>
     </div>
     </>)
