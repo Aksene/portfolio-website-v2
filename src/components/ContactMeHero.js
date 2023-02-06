@@ -7,7 +7,7 @@ import logo from './images/[FINAL]ORF-Backwoods_MINI.png'
 
 function ContactMeHero() {
     return (
-        <div >       
+        <div>
             <video className="contactBackground" src="videos/video-4.mp4" autoPlay playsInline loop muted />
             <text className="contactMe__Title"> Let's Talk!</text>
             <div class="contactMe_row">
@@ -26,9 +26,11 @@ function ContactMeHero() {
                         placeholder="Message"
                         required="required"
                         ></textarea>
-                        <Button type="submit" buttonSize='btn--wide' buttonColor='green' className="contactMe__submit-button">
-
-                        Send</Button>
+                        <div className="contactMe-submit_container">
+                            <Button type="submit" buttonSize='btn--wide' buttonColor='green' className="contactMe__submit-button">
+                                Send
+                            </Button>
+                        </div>
                     </form>
                 </div>
                 <div class="column2">
@@ -36,10 +38,13 @@ function ContactMeHero() {
                         <text for="name">Abdou Khadre Sene</text>
                         <label for="number">My Number: </label>
                         <text for="number">978-239-5626</text>
-                        <label for="email">My E-mail: </label>                
+                        <label for="email">E-mail: </label>                
                         <text for="email">abdouksene@gmail.com</text>
                         {/* <text for="desc">Please contact me anytime for a conversation about my experience and background</text> */}
-                        <img src={logo} className="contact_me-logo" alt="Abdous-world" />
+                        <div className="contactMe-logo_container">
+                            <img src={logo} className="contactMe-logo" alt="Abdous-world" />
+
+                        </div>
                     </div>
                 </div>
             </div>

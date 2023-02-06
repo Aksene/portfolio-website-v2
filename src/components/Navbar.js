@@ -94,6 +94,11 @@ function Navbar() {
                                 </Link>
                             </li>
                             <li className="nav-item">
+                                <Link to='/portfolio' className="nav-links" onClick={closeMobileMenu}>
+                                    Portfolio
+                                </Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link to='//github.com/Aksene?tab=repositories' target='_blank' className="nav-links" onClick={closeMobileMenu}>
                                     Projects
                                 </Link>
