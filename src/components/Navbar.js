@@ -30,7 +30,7 @@ function Navbar() {
     };
 
     const showBarColor = () => {
-        if(window.location.pathname != "/"){
+        if((window.location.pathname != "/") && (window.location.pathname != "/contact-me") ) {
             setBarColor(false);
         }else{
             setBarColor(true);

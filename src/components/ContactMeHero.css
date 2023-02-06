@@ -30,18 +30,11 @@
   justify-content: center;
 }
 
-.video {
-  object-fit: cover;
-  width: 100%;
-  position: fixed;
-  z-index: -1;
-}
-
 .contactBackground {
-  margin-top: -4rem;
+  margin-top: -10rem;
   object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: 110%;
   position: fixed;
   z-index: -1;
 }
