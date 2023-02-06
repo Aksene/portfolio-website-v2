@@ -3,24 +3,23 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   align-content: center;
+  margin-left: 10px;
+  /* padding-bottom: 2rem; */
 }
 
 .experience__grid-child {
-  padding: 3rem;
   width: 100%;
 }
 .experience__grid-child:nth-child(2) {
 }
 
 .experience__grid-child-reverse:nth-child(2) {
-  padding: 1rem;
   grid-row: 1;
 }
 
 .experience__page-subtitle1,
 .experience__page-subtitle2 {
   padding: 0.5rem;
-
   white-space: pre-wrap;
 }
 
@@ -29,11 +28,13 @@
   padding-top: 1rem;
   font-size: 1.6rem;
   text-align: center;
+  font-weight: bold;
 }
 
 .experience__top-heading {
   font-size: 1.8rem;
   text-align: center;
+  font-weight: bolder;
 }
 
 .dark {
@@ -50,7 +51,8 @@
   grid-area: experience__page-info-wrapper;
   max-width: max-content;
   width: 100%;
-  padding: 3rem;
+  margin: auto;
+  /* padding: 3rem; */
 }
 
 .portfolio-links {
@@ -58,7 +60,7 @@
   justify-content: center;
   align-content: center;
   gap: 50px;
-  padding: 10px;
+  padding: 2rem;
 }
 
 img {

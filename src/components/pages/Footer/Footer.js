@@ -41,7 +41,7 @@ function Footer() {
               <img src={logo} className="navbar-logo" alt="Abdous-world" />
             </Link> */}
           </div>
-          <small className='website-rights'>Abdou's World © 2022</small>
+          <small className='website-rights'>Abdou's World © 2023</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link'

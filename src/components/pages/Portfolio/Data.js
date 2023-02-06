@@ -48,7 +48,7 @@ export const portfolioObjOne = {
     topLine: 'Freelance',
     headline: 'JukeByte',
     tech: "Full-Stack, iOS, Swift, Xcode, SQL, PHPMyAdmin",
-    description: 'Jukebox style IOS app which is also kind of similar to spotify. Contains music on a server and information about the music on a database. Using swift and Xcode, the app retrieves the list of songs then plays and pause it at request. The application also tracks the number of likes for a song and also plays.',
+    description: 'Jukebox style IOS app which is also kind of similar to spotify. Contains music on a server and information about the music on a database. Using swift and Xcode, the app retrieves the list of songs then plays and pause it at request. The application also tracks the number of likes for a song and also plays. \n\nThe application consists of a main page for all the songs present on the server and the database songs. On the bottom of the screen is a "now playing bar" which shows what song is playing or nothing if no song is playing. You can also either skip to the next song or go back to the previous one with the help of two buttons. The second tab on the other hand is the now playing screen, which shows you the details clearly. On the bottom of it is the queue showing the non played songs in shuffled order. You can also like the song through a like button which increments the count on the database.',
     imgStart: '',
     img: '../../images/Projects/JukeByte/jukeGif.gif',
     alt: 'JukeByte'
