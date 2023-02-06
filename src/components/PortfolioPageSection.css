@@ -1,29 +1,30 @@
-.experience__grid-container {
+.portfolio__grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   align-content: center;
   margin-left: 10px;
+  padding: 1rem;
   /* padding-bottom: 2rem; */
 }
 
-.experience__grid-child {
+.portfolio__grid-child {
   width: 100%;
 }
-.experience__grid-child:nth-child(2) {
+.portfolio__grid-child:nth-child(2) {
 }
 
-.experience__grid-child-reverse:nth-child(2) {
+.portfolio__grid-child-reverse:nth-child(2) {
   grid-row: 1;
 }
 
-.experience__page-subtitle1,
-.experience__page-subtitle2 {
+.portfolio__page-subtitle1,
+.portfolio__page-subtitle2 {
   padding: 0.5rem;
   white-space: pre-wrap;
 }
 
-.experience__top-line {
+.portfolio__top-line {
   color: #f00946;
   padding-top: 1rem;
   font-size: 1.6rem;
@@ -31,7 +32,7 @@
   font-weight: bold;
 }
 
-.experience__top-heading {
+.portfolio__top-heading {
   font-size: 1.8rem;
   text-align: center;
   font-weight: bolder;
@@ -46,9 +47,9 @@
   background-color: #1c3723;
 }
 
-.experience__page-info-wrapper {
+.portfolio__page-info-wrapper {
   flex-wrap: wrap;
-  grid-area: experience__page-info-wrapper;
+  grid-area: portfolio__page-info-wrapper;
   max-width: max-content;
   width: 100%;
   margin: auto;
@@ -63,29 +64,38 @@
   padding: 2rem;
 }
 
-img {
+.portfolio__page-img {
   max-width: 100%;
+  padding: 2rem;
 }
 
 @media only screen and (max-width: 768px) {
-  .experience__grid-container {
+  .portfolio__grid-container {
     display: grid;
     grid-template-columns: 1fr;
     padding: 1rem;
     margin-bottom: 10rem;
   }
+  .portfolio__page-img {
+    max-width: 100%;
+  }
+  .portfolio-links {
+  }
+  .portfolio-links__btn {
+    max-width: 50%;
+  }
 
-  .experience__grid-child {
+  .portfolio__grid-child {
     padding: 1.5rem;
   }
 
-  .experience__grid-child:nth-child(2) {
+  .portfolio__grid-child:nth-child(2) {
     margin-top: -8rem;
   }
 
-  .experience__page-info-wrapper {
+  .portfolio__page-info-wrapper {
     flex-wrap: wrap;
-    grid-area: experience__page-info-wrapper;
+    grid-area: portfolio__page-info-wrapper;
     max-width: max-content;
     width: 100%;
     padding-top: 4rem;
@@ -93,7 +103,7 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
-  .experience__grid-child {
+  .portfolio__grid-child {
     margin-right: -3.5rem;
   }
 

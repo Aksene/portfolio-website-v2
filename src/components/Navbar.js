@@ -29,6 +29,8 @@ function Navbar() {
         }
     };
 
+    // If the location path is not equal to home or contact me then set barcolor to false 
+    // Else set it to true
     const showBarColor = () => {
         if((window.location.pathname != "/") && (window.location.pathname != "/contact-me") ) {
             setBarColor(false);
@@ -60,6 +62,7 @@ function Navbar() {
     return (
         <>
             <IconContext.Provider value={{color: '#fff'}}>
+                {/* If barColor is true then show transparent navbar, else show the dark bar */}
                 <div 
                 className={
                     barColor 

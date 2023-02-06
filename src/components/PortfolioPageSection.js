@@ -6,7 +6,7 @@ import { Button } from './Button';
 import './PortfolioPageSection.css';
 import './images/slaymaster-icon-logo.png'
 
-function ExperiencePageSection({
+function PortfolioPageSection({
     lightBg,
     topLine,
     lightText,
@@ -21,41 +21,41 @@ function ExperiencePageSection({
 }) {
     return (
     <>
-    <div className={lightBg ? 'experience__page-section' : 'experience__page-section darkBg'}>
-        <div class="experience__grid-container">
+    <div className={lightBg ? 'portfolio__page-section' : 'portfolio__page-section darkBg'}>
+        <div class="portfolio__grid-container">
 
-            <div class="experience__grid-child"
+            <div class="portfolio__grid-child"
                 style={{
                 display: 'grid', 
-                flexDirection: imgStart === 'start' ? 'experience__grid-child-reverse': 'experience__grid-child'}}
+                flexDirection: imgStart === 'start' ? 'portfolio__grid-child-reverse': 'portfolio__grid-child'}}
             >
-                <div className="experience__top-line">{topLine}</div>
-                <h1 className={lightText ? 'experience__heading' : 'experience__heading dark'}>{headline}</h1>
-                <div className="experience__page-row">
-                    <div className="experience__page-text-wrapper">
-                            <div className="experience__page-subtitle1"> 
+                <div className="portfolio__top-line">{topLine}</div>
+                <h1 className={lightText ? 'portfolio__heading' : 'portfolio__heading dark'}>{headline}</h1>
+                <div className="portfolio__page-row">
+                    <div className="portfolio__page-text-wrapper">
+                            <div className="portfolio__page-subtitle1"> 
                                 <h3>Skills: {tech}</h3>
                                 <p>{description}</p>
                             </div>
                     </div>
                 </div>
             </div>
-            <div class= {imgStart === 'start' ? 'experience__grid-child-reverse': 'experience__grid-child'}>
-                <div className="experience__page-info-wrapper">
+            <div class= {imgStart === 'start' ? 'portfolio__grid-child-reverse': 'portfolio__grid-child'}>
+                <div className="portfolio__page-info-wrapper">
                             <div className="home__her-img-wrapper">
                                 <Link to={link} target='_blank'>
-                                    <img src={img} alt={alt} className='experience__page-img'></img>
+                                    <img src={img} alt={alt} className='portfolio__page-img'></img>
                                 </Link>
                             </div>
                 </div>
                 <div className="portfolio-links">
                         <Link to={gitLnk} target='_blank'>
-                            <Button buttonSize='btn--wide' buttonColor='green'>
+                            <Button className="portfolio-links__btn" buttonSize='btn--medium' buttonColor='green'>
                                 GitHub
                             </Button>
                         </Link>
                             <Link to={link} target='_blank'>
-                            <Button buttonSize='btn--wide' buttonColor='green'>
+                            <Button className="portfolio-links__btn" buttonSize='btn--medium' buttonColor='green'>
                                 Demo
                             </Button>
                         </Link>
@@ -67,4 +67,4 @@ function ExperiencePageSection({
     
 }
 
-export default ExperiencePageSection;
+export default PortfolioPageSection;

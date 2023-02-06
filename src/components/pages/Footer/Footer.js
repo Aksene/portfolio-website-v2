@@ -23,7 +23,7 @@ function Footer() {
             <h2>Pages</h2>
             <Link to='/about-me'>About Me</Link>
             <Link to='/experience'>Experience</Link>
-            <Link to='//github.com/Aksene?tab=repositories' target='_blank'>Projects</Link>
+            <Link to='/projects'>Projects</Link>
             <Link to='/contact-me'>Contact me</Link>
           </div>
           <div className='footer-link-items'>
