@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroSection from '../../PortfolioPageSection'
-import {  portfolioObjOne, portfolioObjTwo, portfolioObjThree, portfolioObjFour, portfolioObjFive } from './Data'
+import {  portfolioObjOne, portfolioObjTwo, portfolioObjThree, portfolioObjFour, portfolioObjFive, portfolioObjSix } from './Data'
 import DualLinkHero from '../../DualLinkHero'
 import contactMe from "../../images/contact2.gif"
 import project1 from "../../images/projects1.webp"
@@ -9,6 +9,7 @@ import project1 from "../../images/projects1.webp"
 function Portfolio() {
     return (
         <>
+            <HeroSection {... portfolioObjSix}/>;
             <HeroSection {... portfolioObjOne}/>;
             <HeroSection {... portfolioObjTwo}/>;
             <HeroSection {... portfolioObjThree}/>;

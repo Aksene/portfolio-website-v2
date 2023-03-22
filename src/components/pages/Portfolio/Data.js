@@ -20,7 +20,7 @@ export const portfolioObjOne = {
     topLine: 'Freelance',
     headline: 'Kemba Inc. - Landing Page [Under Construction]',
     tech: "React.JS, React-Router DOM, Google Maps, Formspark",
-    description: 'Distaff Django Rest API & iOS application: Jul 2021 - Dec 2021 \n• In charge of migrating the Django REST API onto an Amazon Web Services EC2 instance. Linked the server with a RDS instance as the database, then imported the schema through a script. Proceeded to install Gunicorn to help the API run on the server then Nginx to make the app accessible from the public IP (Restarts the API if it shuts down). \n• Completely rewrote portions of the python sign-in on the server, fixing all the problems with email registration and email verification. Proceeded to submit the app to be updated through AppConnect.',
+    description: 'Currently under construction for Kemba Inc',
     imgStart: 'start',
     img: '../../images/Projects/Kemba/kembaGIF.gif',
     alt: 'Kemba'
@@ -66,4 +66,18 @@ export const portfolioObjOne = {
     imgStart: '',
     img: '../../images/Projects/MatchApp/matchGif.gif',
     alt: 'MatchApp'
+  };
+
+  export const portfolioObjSix = {
+    lightBg: true,
+    lightText: false,
+    link: "//beautylynk-clone.vercel.app/",
+    gitLnk: "//github.com/Aksene/beautylynk-clone",
+    topLine: 'Freelance',
+    headline: 'BeautyLynk - Booking Portal [Under Construction]',
+    tech: "Full-Stack, React.JS, Supabase, Typeform, Stripe, Twilio, Vercel",
+    description: 'Under construction for BeautyLynk',
+    imgStart: 'start',
+    img: '../../images/Projects/BeautyLynk/beautylynk1.png',
+    alt: 'BeautyLynk'
   };

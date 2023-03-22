@@ -11,7 +11,7 @@ function MainHeroSection() {
         <div className='hero-container'>
             <video src={VideoBackground} autoPlay={true} preload={true} playsInline loop muted />
             <h1>My Name is Abdou</h1>
-            <p>I'm a Web & Mobile developer </p>
+            <p>and I'm a Web & Mobile developer </p>
             <div className="hero-btns">
                 <Link to="//drive.google.com/file/d/1LT7N_kRzqBE3CwtLmtd95dIAXW72euZq/view?usp=sharing" target='_blank'>
                     <Button 
