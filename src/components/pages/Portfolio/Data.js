@@ -18,7 +18,7 @@ export const portfolioObjOne = {
     link: "//kemba-inc-alpha.vercel.app/",
     gitLnk: "//github.com/Aksene/kemba-inc-alpha",
     topLine: 'Freelance',
-    headline: 'Kemba Inc. - Landing Page',
+    headline: 'Kemba Inc. - Landing Page [Under Construction]',
     tech: "React.JS, React-Router DOM, Google Maps, Formspark",
     description: 'Distaff Django Rest API & iOS application: Jul 2021 - Dec 2021 \n• In charge of migrating the Django REST API onto an Amazon Web Services EC2 instance. Linked the server with a RDS instance as the database, then imported the schema through a script. Proceeded to install Gunicorn to help the API run on the server then Nginx to make the app accessible from the public IP (Restarts the API if it shuts down). \n• Completely rewrote portions of the python sign-in on the server, fixing all the problems with email registration and email verification. Proceeded to submit the app to be updated through AppConnect.',
     imgStart: 'start',
