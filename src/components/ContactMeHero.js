@@ -12,7 +12,7 @@ function ContactMeHero() {
             <text className="contactMe__Title"> Let's Talk!</text>
             <div class="contactMe_row">
                 <div class="column1">
-                    <form className="container1" action="https://submit-form.com/WxAHMHxW">
+                    <form className="container1" action="https://submit-form.com/XOxuMUP6">
                         <label for="name">Name: </label>
                         <input type="text" id="name" name="name" placeholder="Name" required="required" />
                         <label for="number">Number: </label>
@@ -43,7 +43,6 @@ function ContactMeHero() {
                         {/* <text for="desc">Please contact me anytime for a conversation about my experience and background</text> */}
                         <div className="contactMe-logo_container">
                             <img src={logo} className="contactMe-logo" alt="Abdous-world" />
-
                         </div>
                     </div>
                 </div>
