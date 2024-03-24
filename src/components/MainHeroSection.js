@@ -13,7 +13,7 @@ function MainHeroSection() {
             <h1>My Name is Abdou</h1>
             <p>and I'm a Web & Mobile developer </p>
             <div className="hero-btns">
-                <Link to="//drive.google.com/file/d/1LT7N_kRzqBE3CwtLmtd95dIAXW72euZq/view?usp=sharing" target='_blank'>
+                <Link to="//drive.google.com/file/d/19IS1vzm1H0vDhCU_6HiCjUSs9lSlEuTo/view?usp=drive_link" target='_blank'>
                     <Button 
                         className='btns' 
                         buttonStyle='btn--outline'
