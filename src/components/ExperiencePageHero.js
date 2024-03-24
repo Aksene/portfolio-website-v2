@@ -18,8 +18,8 @@ function ExperiencePageHero() {
                                     <div className="hero-icon">
                                         <img src="images/slaymaster-icon-logo.png" alt="Slaymasters" className='experience__hero-img'></img>
                                     </div>
-                                    <h3>Slaymasters</h3>
-                                    <h4>Software Developer</h4>
+                                    <h3>BeautyLynk</h3>
+                                    <h4>Full-Stack Developer</h4>
                                     <p>February 2022 - Present</p>
                                     <ul className="experienceHero__container-features">
                                         <li>• Database, web, application design & maintenance.</li>
